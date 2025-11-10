@@ -1,10 +1,8 @@
 KatVRをUnrealEngineで使用するためのPlugin＆Component
-Pluginは現時点で最新バージョンではないので、更新は各自で。
-※最新バージョンはソースコードが変わっているので自己責任(デフォルトではキャリブレーションの関数がない、新しく追加されたポインタがある、デバイスIDが違うetc...)
 
 使用方法
 1.Pluginをプロジェクトのフォルダに追加する
-2.ソースコードを自分のSourceフォルダに入れる(includePathの変更も忘れずに)
+2.コンポーネントを自分のSourceフォルダに入れる(includePathの変更も忘れずに)
 3.VRPawnのVROriginの直下にKATMoverというシーンコンポーネントを追加し、その直下にMotionControllerLeftGripを親子付けする
 
 移動速度の変更はKATMoverのNowSpeed、キャリブレーションの実行はDoCalibration()の呼び出しで行えます
