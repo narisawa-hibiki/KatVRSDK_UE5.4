@@ -1,6 +1,3 @@
 KatVRをUnrealEngineで使用するためのPlugin＆Component
 
-使用方法
-1.Pluginをプロジェクトのフォルダに追加する
-2.コンポーネントを自分のSourceフォルダに入れる(includePathの変更も忘れずに)
-3.VRPawnのVROriginの直下にKATMoverというシーンコンポーネントを追加し、その直下にMotionControllerLeftGripなど全てを親子付けする
+マニュアルを読んでから使うこと
